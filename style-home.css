@@ -1,0 +1,235 @@
+body {
+	font-family: Montserrat, sans-serif;
+}
+
+
+.banner{
+	position: absolute;
+	width: 100%;
+	opacity: 55%;
+	height: 100%;
+}
+
+.banner2 {
+	width: 100%;
+}
+
+header {
+	position: relative;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	display: inline;
+	vertical-align: top;
+	position: absolute;
+	margin: 0 3em;
+}
+
+.logo {
+	padding-top: 20px;
+}
+
+.logo:hover {
+	content: url('logo-branco.png');
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 130px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+
+
+
+.banner3 {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+	box-shadow: 5px 5px 5px #000000;
+}
+
+.principal{
+	position: relative;
+	background: whitesmoke;
+	padding: 3em 0;
+}
+
+.titulo-principal{
+	text-align: center; 
+	font-size: 2em;
+	margin: 0 0 1em;
+	padding-bottom: 20px;
+	clear: left;
+}
+
+.titulo-principal:nth-letter(2) {
+	font-weight: bold;
+}
+
+.titulo-principal:after {
+	content: "✯";
+}
+
+.titulo-principal:before {
+	content: "✯";
+}
+
+.conteudo-principal {
+	margin: 0 auto;
+	width: 940px;
+}
+
+.principal p{
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.missao{
+	margin: 10px 10px;
+	font-style: italic;
+}
+
+.missao strong{
+	color: darkred;
+}
+
+
+
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient(whitesmoke, #888888);
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.mapg {
+	width: 80%;
+	margin: 0 auto;
+	box-shadow: 5px 5px 15px #000000;
+}
+
+
+
+
+.itens{
+	font-style: italic;
+	margin-left: 35px;
+	margin-top: 10px;
+	line-height: 1.5;
+}
+
+.itens:first-child {
+	font-weight: bold;
+}
+
+.itens:before {
+	font-size: 1.2em;
+	content: "✯ ";
+}
+
+.beneficios{
+	position: relative;
+	background: #888888;
+	padding: 3em 0;
+}
+
+.conteudo-beneficios {
+	width: 740px;
+	margin: 0 auto;
+}
+
+.lista-beneficios{
+	display: inline-block;
+	vertical-align: top;
+	width: 40%;
+	
+}
+
+.imagem-beneficios{
+	width: 60%;
+	box-shadow: 10px 10px 15px #000000;
+}
+
+.video {
+	width: 560px ;
+	margin: 2em auto;
+	margin-top: 4em;
+	box-shadow: 5px 5px 15px #000000;
+}
+
+
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+
+}
+
+.copyright {
+	color: white;
+	font-size: 13px;
+	margin-top: 20px 0 0;
+}
+
+
+
+@media screen and (max-width: 480px) {
+	.titulo-principal, .titulo, .caixa, .principal, .conteudo-principal, .conteudo-beneficios, .mapg, .video{
+		width: auto;
+	}
+
+	.titulo{
+		text-align: center;
+		position: relative;
+		margin: 0 0;
+	}
+
+	.logo {
+		margin: 0 7em;
+	}
+
+	nav {
+		text-align: center;
+		position: static;
+	}
+
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+	}
+}
